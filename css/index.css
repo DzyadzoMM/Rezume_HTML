@@ -1,0 +1,228 @@
+body {
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  background: #e5e5e5;
+  font-family: "Montserrat", Sans-Serif;
+}
+.wrapper{
+  display: flex;
+  flex-direction: row-reverse;
+  background: #ffffff;
+  width: 1200px;
+  margin: auto;
+}
+.about_me{margin-bottom:40px;}
+.my_profesion{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.main_content{
+  padding-left: 88px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right: 40px;
+}
+.my_name{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+}
+.my_summary{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.projects{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+.projects_list{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2979FF;
+}
+.projects_list .li1 .li2{
+  text-decoration-line:underline;}
+.box{display:flex;}
+.box .a1{justify-content: flex-start;}
+.box .p1{
+  justify-content: flex-end;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.box2{display:flex;}
+.box2 .a2{justify-content: flex-start;}
+.box2 .p2{
+  justify-content: flex-end;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.work_experiens{margin-top:40px;}
+.work_experiens_name{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+.company{margin-top:8px;}
+.company_name{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.company_name span{color:#6096FF;}
+.company span p{
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #A8A8A8;
+}
+.company_ul{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  list-style-type: disc;
+  margin-left: 25px;
+}
+.Education{margin-top:40px;}
+.Education h4{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+.Education_name{margin-top:8px;}
+.Education h5{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6096FF;
+}
+.Education p{
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.Education span p{
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #A8A8A8;
+}
+aside{
+  width:370px ;
+  height:1319px ;
+  background:#dfeeff ;
+}
+.my_photo{
+  width: 370px;
+  margin-top: 40px;
+}
+.Contacts{
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.Contacts_name{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161D2A;
+}
+.index{
+  margin-right: 227px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161D2A;
+  width: 250px;
+}
+.link{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #2979FF;
+}
+.tech_scills{
+  margin-right:80px ;
+  margin-left: 40px;
+  margin-top: 40px;
+  width: 250px;
+}
+.tech_scills_name{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161D2A;
+}
+.tech_scills_list{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161D2A;
+  list-style-type: disc;
+  margin-left: 25px;
+}
+.soft_scills{
+  margin-right:80px ;
+  margin-left: 40px;
+  margin-top: 40px;
+  width: 250px;
+}
+.soft_scills_name{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161D2A;
+}
+.soft_scills_list{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161D2A;
+  list-style-type: disc;
+  margin-left: 25px;
+}
